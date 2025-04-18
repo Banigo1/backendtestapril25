@@ -43,9 +43,4 @@ Route::middleware('auth:sanctum')->group(function () {
 Route::post('password/email', [AuthController::class, 'sendResetLinkEmail']);
 Route::post('password/reset', [AuthController::class, 'reset']);
 Route::post('password/confirm', [AuthController::class, 'confirmPassword']);
-// Route::post('password/confirm', [AuthController::class, 'confirmPassword']);
-// Route::post('password/confirm', [AuthController::class, 'confirmPassword']);
-// Route::post('password/confirm', [AuthController::class, 'confirmPassword']);
-// Route::post('password/confirm', [AuthController::class, 'confirmPassword']);
-// Route::post('password/confirm', [AuthController::class, 'confirmPassword']);
-// Route::post('password/confirm', [AuthController::class, 'confirmPassword']); 
+
